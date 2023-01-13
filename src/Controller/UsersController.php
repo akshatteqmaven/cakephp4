@@ -164,7 +164,8 @@ class UsersController extends AppController
         $this->Auth->allow(['register']);
         $this->Auth->allow(['forgot']);
         $this->Auth->allow(['reset']);
-        $this->Auth->allow(['getotp ']);
+        $this->Auth->allow(['getotp']);
+        $this->Auth->allow(['logout']);
     }
     public function forgot()
     {

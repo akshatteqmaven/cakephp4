@@ -127,8 +127,8 @@ class UsersTable extends Table
             ->maxLength('gender', 50)
             ->requirePresence('gender', 'create')
             ->notEmptyString('gender', 'Please select your Gender');
-        $validator
 
+        $validator
             ->notEmptyString('file', 'Please select a file');
 
 

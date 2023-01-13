@@ -6,17 +6,7 @@
  */
 ?>
 <div class="row">
-    <aside class="column">
-        <div class="side-nav">
-            <h4 class="heading"><?= __('Actions') ?></h4>
-            <?= $this->Form->postLink(
-                __('Delete'),
-                ['action' => 'delete', $user->id],
-                ['confirm' => __('Are you sure you want to delete # {0}?', $user->id), 'class' => 'side-nav-item']
-            ) ?>
-            <?= $this->Html->link(__('List Users'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
-        </div>
-    </aside>
+
     <div class="column-responsive column-80">
         <div class="users form content">
             <?= $this->Form->create($user, ['enctype' => 'multipart/form-data']) ?>
@@ -29,10 +19,12 @@
                 echo $this->Form->control('name');
                 echo $this->Form->control('phone');
                 echo $this->Form->control('email');
-                echo $this->Form->control('gender');
+                echo $this->Form->control('gender', array('type' => 'radio'));
+                echo $this->Form->radio('gender', ['Male' => 'Male', 'Female' => 'Female'], ['required' => false]);
                 ?>
             </fieldset>
-            <?= $this->Form->button(__('Submit')) ?>
+            <?= $this->Form->button(__('Submit'), ['class' => 'submit']) ?>
+            <?= $this->Html->link(__('Go Back'), ['action' => 'index'], ['class' => 'button']) ?>
             <?= $this->Form->end() ?>
         </div>
     </div>

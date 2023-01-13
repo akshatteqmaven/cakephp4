@@ -18,13 +18,7 @@
                 </fieldset>
                 <?= $this->Form->button(__('Submit')) ?>
                 <?= $this->Form->end() ?>
-                <hr>
-                <div class="text-center">
-                    <?= $this->Html->link(__('Create an Account!'), ['action' => 'signup'], ['class' => 'nav-link active']) ?>
-                </div>
-                <div class="text-center">
-                    <?= $this->Html->link(__('Already have an account? Login!'), ['action' => 'login'], ['class' => 'nav-link active']) ?>
-                </div>
+
             </div>
         </div>
     </div>

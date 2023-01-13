@@ -7,10 +7,10 @@
         <?= $this->Form->control('phone', ['required' => false]); ?>
         <?= $this->Form->control('email', ['required' => false]); ?>
         <?= $this->Form->control('password', array('type' => 'password', 'required' => false)); ?>
-        <?= $this->Form->control('file', ['type' => 'file']); ?>
-        <?= $this->Form->control('gender', array('type' => 'radio', 'required' => false)); ?>
-        <?= $this->Form->radio('gender', ['Male' => 'Male', 'Female' => 'Female']); ?>
-        <?= $this->Form->submit('Register', array('class' => 'button')); ?>
+        <?= $this->Form->control('gender', array('type' => 'radio')); ?>
+        <?= $this->Form->radio('gender', ['Male' => 'Male', 'Female' => 'Female'], ['required' => false]); ?>
+        <?= $this->Form->control('file', ['type' => 'file', 'required' => false]); ?>
+        <?= $this->Form->submit('Register'); ?>
         <?= $this->Form->end(); ?>
 
     </div>
