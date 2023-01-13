@@ -245,6 +245,6 @@ class UsersController extends AppController
     }
 
     public $paginate = [
-        'limit' => 4
+        'limit' => 6
     ];
 }

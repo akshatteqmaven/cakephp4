@@ -14,6 +14,10 @@
             <h3><?= h($user->name) ?></h3>
             <table>
                 <tr>
+                    <th><?= __('Id') ?></th>
+                    <td><?= $this->Number->format($user->id) ?></td>
+                </tr>
+                <tr>
                     <th><?= __('Name') ?></th>
                     <td><?= h($user->name) ?></td>
                 </tr>
@@ -32,10 +36,6 @@
                 <tr>
                     <th><?= __('Gender') ?></th>
                     <td><?= h($user->gender) ?></td>
-                </tr>
-                <tr>
-                    <th><?= __('Id') ?></th>
-                    <td><?= $this->Number->format($user->id) ?></td>
                 </tr>
                 <?= $this->Html->link(__('Go Back'), ['action' => 'index'], ['class' => 'button']) ?>
 
