@@ -7008,3 +7008,2248 @@ Referer URL: http://localhost:8765/register
 Client IP: 127.0.0.1
 2023-01-12 13:00:55 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
 2023-01-12 13:00:55 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:06:58 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:06:58 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:06:58 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:06:58 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:06:58 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/register
+Client IP: 127.0.0.1
+2023-01-12 13:06:58 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:06:58 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:06:59 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:06:59 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:06:59 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:06:59 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:06:59 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/register
+Client IP: 127.0.0.1
+2023-01-12 13:06:59 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:06:59 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:06:59 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:06:59 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:06:59 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:07:00 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:07:00 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/register
+Client IP: 127.0.0.1
+2023-01-12 13:07:00 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:07:00 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:07:00 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:07:00 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:07:00 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:07:00 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:07:00 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/register
+Client IP: 127.0.0.1
+2023-01-12 13:07:00 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:07:00 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:07:00 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:07:00 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:07:00 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:07:00 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:07:00 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/register
+Client IP: 127.0.0.1
+2023-01-12 13:07:00 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:07:00 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:07:01 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:07:01 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:07:01 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:07:01 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:07:01 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2023-01-12 13:07:01 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:07:01 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:07:02 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:07:02 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:07:02 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:07:02 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:07:02 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/register
+Client IP: 127.0.0.1
+2023-01-12 13:07:02 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:07:02 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:07:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:07:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:07:36 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:07:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:07:36 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/register
+Client IP: 127.0.0.1
+2023-01-12 13:07:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:07:36 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:07:57 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:07:58 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:07:58 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:07:58 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:07:58 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:07:58 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:07:58 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:07:58 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2023-01-12 13:07:58 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:07:58 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:08:08 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:08:08 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:08:08 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:08:08 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:08:08 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:08:08 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:08:08 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:08:08 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/users
+Client IP: 127.0.0.1
+2023-01-12 13:08:08 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:08:08 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:08:18 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:08:18 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:08:18 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:08:18 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:08:18 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:164
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/cakephp4/src/Controller/UsersController.php:40
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /users/view/logo.png
+Referer URL: http://localhost:8765/users/view/1
+Client IP: 127.0.0.1
+2023-01-12 13:08:18 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:08:18 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:08:25 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:08:25 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:08:25 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:08:25 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:08:25 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:164
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/cakephp4/src/Controller/UsersController.php:76
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /users/edit/logo.png
+Referer URL: http://localhost:8765/users/edit/1
+Client IP: 127.0.0.1
+2023-01-12 13:08:25 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:08:25 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:08:29 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:08:29 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:08:29 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:08:30 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:08:30 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:164
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/cakephp4/src/Controller/UsersController.php:76
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /users/edit/logo.png
+Referer URL: http://localhost:8765/users/edit/1
+Client IP: 127.0.0.1
+2023-01-12 13:08:30 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:08:30 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:08:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:08:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:08:36 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:08:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:08:36 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/users
+Client IP: 127.0.0.1
+2023-01-12 13:08:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:08:36 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:03 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:03 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:03 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:03 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:03 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/posts
+Client IP: 127.0.0.1
+2023-01-12 13:09:03 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:03 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:06 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:06 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:06 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:07 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:07 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:164
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/cakephp4/src/Controller/UsersController.php:40
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /users/view/logo.png
+Referer URL: http://localhost:8765/users/view/1
+Client IP: 127.0.0.1
+2023-01-12 13:09:07 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:07 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:09 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:09 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:09 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:09 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:09 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:164
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/cakephp4/src/Controller/UsersController.php:76
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /users/edit/logo.png
+Referer URL: http://localhost:8765/users/edit/1
+Client IP: 127.0.0.1
+2023-01-12 13:09:09 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:09 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:11 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:11 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:11 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:11 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:11 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:164
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/cakephp4/src/Controller/UsersController.php:76
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /users/edit/logo.png
+Referer URL: http://localhost:8765/users/edit/1
+Client IP: 127.0.0.1
+2023-01-12 13:09:11 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:11 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:16 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:17 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:17 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:17 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:17 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:164
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/cakephp4/src/Controller/UsersController.php:76
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /users/edit/logo.png
+Referer URL: http://localhost:8765/users/edit/1
+Client IP: 127.0.0.1
+2023-01-12 13:09:17 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:17 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:21 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:21 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:21 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:21 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:21 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:164
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/cakephp4/src/Controller/UsersController.php:40
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /users/view/logo.png
+Referer URL: http://localhost:8765/users/view/1
+Client IP: 127.0.0.1
+2023-01-12 13:09:21 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:21 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:23 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:23 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:23 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:23 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:23 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/posts
+Client IP: 127.0.0.1
+2023-01-12 13:09:23 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:23 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:27 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:27 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:27 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:28 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:28 error: [Cake\Controller\Exception\MissingActionException] Action PostsController::logo.png() could not be found, or is not accessible. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'logo.png',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /posts/logo.png
+Referer URL: http://localhost:8765/posts/add
+Client IP: 127.0.0.1
+2023-01-12 13:09:28 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:28 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:49 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:49 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:49 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:49 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:49 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/posts
+Client IP: 127.0.0.1
+2023-01-12 13:09:49 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:49 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:54 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:54 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:54 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:09:54 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:09:54 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:164
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/cakephp4/src/Controller/PostsController.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /posts/view/logo.png
+Referer URL: http://localhost:8765/posts/view/1
+Client IP: 127.0.0.1
+2023-01-12 13:09:54 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:09:54 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:10:00 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:10:00 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:10:00 warning: The datasource configuration "debug_kit" was not found.
+2023-01-12 13:10:00 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-12 13:10:00 error: [Cake\Controller\Exception\MissingActionException] Action PostsController::logo.png() could not be found, or is not accessible. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'logo.png',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /posts/logo.png
+Referer URL: http://localhost:8765/posts/add
+Client IP: 127.0.0.1
+2023-01-12 13:10:00 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-12 13:10:00 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:29:03 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:29:03 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:29:03 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:29:03 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:29:04 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2023-01-13 03:29:04 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:29:04 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:29:09 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:29:09 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:29:09 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:29:09 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:29:09 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/register
+Client IP: 127.0.0.1
+2023-01-13 03:29:09 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:29:09 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:29:11 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:29:11 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:29:11 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:29:11 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:29:11 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+2023-01-13 03:29:11 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:29:11 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:29:13 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:29:13 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:29:13 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:29:13 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:29:13 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:29:13 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:29:13 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:29:13 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/?redirect=%2Fusers%2Flogout
+Client IP: 127.0.0.1
+2023-01-13 03:29:13 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:29:13 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:29:58 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:29:59 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:29:59 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:29:59 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:29:59 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/?redirect=%2Fusers%2Flogout
+Client IP: 127.0.0.1
+2023-01-13 03:29:59 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:29:59 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:30:42 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:30:42 error: [Cake\Http\Exception\MissingControllerException] Controller class Postst could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Postst',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /postst
+Client IP: 127.0.0.1
+2023-01-13 03:30:42 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:30:42 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:30:48 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:30:48 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:30:48 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:30:48 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:30:48 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:30:48 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:30:48 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:30:48 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/?redirect=%2Fposts
+Client IP: 127.0.0.1
+2023-01-13 03:30:48 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:30:48 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:30:56 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:30:56 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:30:56 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:30:56 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:30:56 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:30:56 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:30:56 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:30:56 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/users
+Client IP: 127.0.0.1
+2023-01-13 03:30:56 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:30:56 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:05 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:05 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:05 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:05 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:05 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/posts
+Client IP: 127.0.0.1
+2023-01-13 03:31:05 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:05 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:11 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:11 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:11 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:11 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:11 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:164
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/cakephp4/src/Controller/PostsController.php:76
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /posts/edit/logo.png
+Referer URL: http://localhost:8765/posts/edit/1
+Client IP: 127.0.0.1
+2023-01-13 03:31:11 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:11 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:13 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:13 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:13 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:13 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:13 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:13 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:13 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:13 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/posts
+Client IP: 127.0.0.1
+2023-01-13 03:31:13 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:13 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:19 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:19 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:19 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:19 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:19 error: [Cake\Controller\Exception\MissingActionException] Action UsersController::logo.png() could not be found, or is not accessible. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'logo.png',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /users/logo.png
+Referer URL: http://localhost:8765/users/
+Client IP: 127.0.0.1
+2023-01-13 03:31:19 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:19 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:21 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:21 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:21 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:21 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:21 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:164
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/cakephp4/src/Controller/UsersController.php:76
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /users/edit/logo.png
+Referer URL: http://localhost:8765/users/edit/1
+Client IP: 127.0.0.1
+2023-01-13 03:31:21 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:21 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:27 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:27 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:27 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:27 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:27 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:164
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/cakephp4/src/Controller/UsersController.php:76
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /users/edit/logo.png
+Referer URL: http://localhost:8765/users/edit/1
+Client IP: 127.0.0.1
+2023-01-13 03:31:27 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:27 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:34 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:34 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:34 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:34 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:34 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/users
+Client IP: 127.0.0.1
+2023-01-13 03:31:34 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:34 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:42 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:43 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:43 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:43 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:43 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/posts
+Client IP: 127.0.0.1
+2023-01-13 03:31:43 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:43 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:46 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:46 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:46 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:46 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:46 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:164
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/cakephp4/src/Controller/UsersController.php:40
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /users/view/logo.png
+Referer URL: http://localhost:8765/users/view/1
+Client IP: 127.0.0.1
+2023-01-13 03:31:46 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:46 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:49 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:49 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:49 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:49 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:49 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:164
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/cakephp4/src/Controller/UsersController.php:76
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /users/edit/logo.png
+Referer URL: http://localhost:8765/users/edit/1
+Client IP: 127.0.0.1
+2023-01-13 03:31:49 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:49 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:54 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:54 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:54 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:54 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:54 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:164
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/cakephp4/src/Controller/UsersController.php:76
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /users/edit/logo.png
+Referer URL: http://localhost:8765/users/edit/1
+Client IP: 127.0.0.1
+2023-01-13 03:31:54 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:54 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:55 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:55 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:55 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:55 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:55 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:164
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/cakephp4/src/Controller/UsersController.php:76
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /users/edit/logo.png
+Referer URL: http://localhost:8765/users/edit/1
+Client IP: 127.0.0.1
+2023-01-13 03:31:55 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:55 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:58 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:58 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:58 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:31:58 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:31:58 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/users
+Client IP: 127.0.0.1
+2023-01-13 03:31:58 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:31:58 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:32:02 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:32:02 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:32:02 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:32:02 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:32:02 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/posts
+Client IP: 127.0.0.1
+2023-01-13 03:32:02 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:32:02 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:32:08 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:32:08 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:32:08 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:32:08 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:32:08 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:164
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/cakephp4/src/Controller/PostsController.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /posts/view/logo.png
+Referer URL: http://localhost:8765/posts/view/1
+Client IP: 127.0.0.1
+2023-01-13 03:32:08 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:32:08 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:32:15 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:32:15 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:32:15 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:32:15 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:32:15 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:164
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/cakephp4/src/Controller/PostsController.php:76
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /posts/edit/logo.png
+Referer URL: http://localhost:8765/posts/edit/1
+Client IP: 127.0.0.1
+2023-01-13 03:32:15 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:32:15 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:32:17 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:32:17 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:32:17 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:32:17 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:32:17 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/posts
+Client IP: 127.0.0.1
+2023-01-13 03:32:17 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:32:17 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:32:19 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:32:19 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:32:19 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:32:19 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:32:19 error: [Cake\Controller\Exception\MissingActionException] Action PostsController::logo.png() could not be found, or is not accessible. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'logo.png',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /posts/logo.png
+Referer URL: http://localhost:8765/posts/add
+Client IP: 127.0.0.1
+2023-01-13 03:32:19 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:32:19 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:32:28 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:32:28 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:32:28 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:32:28 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:32:28 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:32:28 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:32:28 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:32:28 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/posts
+Client IP: 127.0.0.1
+2023-01-13 03:32:28 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:32:28 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:32:34 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:32:34 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:32:34 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:32:35 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:32:35 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:164
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/cakephp4/src/Controller/PostsController.php:76
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /posts/edit/logo.png
+Referer URL: http://localhost:8765/posts/edit/1
+Client IP: 127.0.0.1
+2023-01-13 03:32:35 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:32:35 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:32:50 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:32:50 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:32:50 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:32:50 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:32:50 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:32:50 warning: The datasource configuration "debug_kit" was not found.
+2023-01-13 03:32:50 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-13 03:32:50 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.png could not be found. in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Logo.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /logo.png
+Referer URL: http://localhost:8765/posts
+Client IP: 127.0.0.1
+2023-01-13 03:32:50 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-13 03:32:50 warning: The datasource configuration "debug_kit" was not found.
