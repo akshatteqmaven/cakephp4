@@ -7,6 +7,7 @@
         <?= $this->Form->control('password', array('type' => 'password')); ?>
         <?= $this->Form->submit('login', array('class' => 'button')); ?>
         <?= $this->Form->end(); ?>
+        <?= $this->Html->link(__('Forgot Password'), ['action' => 'forgot'], ['class' => 'button float-left']) ?>
 
     </div>
 </div>

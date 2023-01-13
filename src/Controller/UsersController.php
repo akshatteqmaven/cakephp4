@@ -6,6 +6,9 @@ namespace App\Controller;
 
 use App\Controller\AppController; //use is used to include the class.
 use Cake\Event\Event;
+use Cake\Mailer\Email;
+use Cake\Mailer\Mailer;
+use Cake\Mailer\TransportFactory;
 
 /**
  * Users Controller
@@ -75,8 +78,16 @@ class UsersController extends AppController
         $user = $this->Users->get($id, [
             'contain' => [],
         ]);
+        $fileName2 = $user['file'];
         if ($this->request->is(['patch', 'post', 'put'])) {
-            $user = $this->Users->patchEntity($user, $this->request->getData());
+            $data = $this->request->getData();
+            $productImage = $this->request->getData("file");
+            $fileName = $productImage->getClientFilename();
+            if ($fileName == '') {
+                $fileName = $fileName2;
+            }
+            $data["file"] = $fileName;
+            $user = $this->Users->patchEntity($user, $data);
             if ($this->Users->save($user)) {
                 $this->Flash->success(__('The user has been saved.'));
 
@@ -132,7 +143,11 @@ class UsersController extends AppController
     {
         $user = $this->Users->newEmptyEntity();
         if ($this->request->is('post')) {
-            $user = $this->Users->patchEntity($user, $this->request->getData());
+            $data = $this->request->getData();
+            $productImage = $this->request->getData("file");
+            $fileName = $productImage->getClientFilename();
+            $data["file"] = $fileName;
+            $user = $this->Users->patchEntity($user, $data);
             if ($this->Users->save($user)) {
                 $this->Flash->success('You are Registered and you can login now');
                 return $this->redirect(['action' => 'login']);
@@ -143,22 +158,91 @@ class UsersController extends AppController
         $this->set(compact('user'));
         $this->set('_serialzie', ['user']);
     }
-    public function customer()
-    {
-        $user = $this->Users->newEmptyEntity();
-        if ($this->request->is('post')) {
-            $user = $this->Users->patchEntity($user, $this->request->getData());
-            if ($this->Users->save($user)) {
-                $this->Flash->success('You are Registered and you can login now');
-            } else {
-                $this->Flash->error('Something went wrong');
-            }
-        }
-    }
+
     public function beforeFilter($event)
     {
         $this->Auth->allow(['register']);
+        $this->Auth->allow(['forgot']);
+        $this->Auth->allow(['reset']);
+        $this->Auth->allow(['getotp ']);
     }
+    public function forgot()
+    {
+        // $this->viewBuilder()->setLayout('mydefault');
+        $user = $this->Users->newEmptyEntity();
+        if ($this->request->is('post')) {
+            $user = $this->Users->patchEntity($user, $this->request->getData());
+            $email = $this->request->getData('email');
+            $user->email = $email;
+            $result = $this->Users->checkemail($email);
+            if ($result) {
+                $token = rand(10000, 99999);
+                $result = $this->Users->insertToken($email, $token);
+
+                $mailer = new Mailer('default');
+                $mailer->setTransport('gmail'); //your email configuration name
+                $mailer->setFrom(['akshatsood1234@gmail.com' => 'Code The Pixel']);
+                $mailer->setTo($email);
+                $mailer->setEmailFormat('html');
+                $mailer->setSubject('O.T.P');
+                $mailer->deliver("$token is your one time password for dragon layer");
+
+                $this->Flash->success(__('Reset email send successfully.'));
+
+                return $this->redirect(['action' => 'getotp']);
+            }
+            $this->Flash->error(__('Please enter valid credential..'));
+        }
+        $this->set(compact('user'));
+    }
+    public function getotp()
+    {
+
+        // $this->viewBuilder()->setLayout('mydefault');
+        $user = $this->Users->newEmptyEntity();
+        if ($this->request->is('post')) {
+
+            $token = $this->request->getData('token');
+            $result = $this->Users->checktokenexist($token);
+
+            if ($result) {
+                $session = $this->getRequest()->getSession(); //get session
+                $session->write('token', $token); //write name value to session
+                return $this->redirect(['action' => 'reset']);
+            }
+            $this->Flash->error(__('Please enter valid password'));
+            // } else {
+            //     return $this->redirect(['action' => 'login']);
+        }
+        $this->set(compact('user'));
+    }
+    public function reset()
+    {
+        $session = $this->request->getSession(); //read session data
+        if ($session->read('token') != null) {
+        } else {
+            $this->redirect(['action' => 'login']);
+        }
+        $token = $session->read('token');
+        $user = $this->Users->newEmptyEntity();
+        if ($this->request->is('post')) {
+            $user = $this->Users->patchEntity($user, $this->request->getData());
+            $password = $this->request->getData('password');
+            $result = preg_match('(^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]*).{8,}$)', $password);
+            $confirm_password = $this->request->getData('confirm_password');
+            if ($result == 1 && $password == $confirm_password) {
+                $res = $this->Users->resetPassword($token, $password);
+                if ($res) {
+                    $session->destroy();
+                    $this->Flash->success(__('Password updated successfully.'));
+                    return $this->redirect(['action' => 'login']);
+                }
+            }
+            $this->Flash->error(__('Please enter valid password'));
+        }
+        $this->set(compact('user'));
+    }
+
     public $paginate = [
         'limit' => 4
     ];

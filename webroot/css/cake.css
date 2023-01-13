@@ -266,3 +266,11 @@ a {
 .navbar {
     background: linear-gradient(to right, #B5AC49, #3CA55C);
 }
+
+.error-message {
+    font-size: 19px;
+    color: #cc1f1a;
+    background-color: #fcebea;
+    border: 1px solid;
+    width: 500px;
+}
