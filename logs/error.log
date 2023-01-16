@@ -36298,3 +36298,18 @@ Client IP: 127.0.0.1
 2023-01-16 09:14:08 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
 2023-01-16 09:14:08 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
 2023-01-16 09:14:08 warning: The datasource configuration "debug_kit" was not found.
+2023-01-16 09:16:17 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-16 09:16:17 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-16 09:16:17 warning: The datasource configuration "debug_kit" was not found.
+2023-01-16 09:16:20 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-16 09:16:20 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-16 09:16:20 warning: The datasource configuration "debug_kit" was not found.
+2023-01-16 09:16:21 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-16 09:16:21 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-16 09:16:21 warning: The datasource configuration "debug_kit" was not found.
+2023-01-16 09:16:22 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-16 09:16:22 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-16 09:16:22 warning: The datasource configuration "debug_kit" was not found.
+2023-01-16 09:16:24 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-16 09:16:24 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-16 09:16:24 warning: The datasource configuration "debug_kit" was not found.
