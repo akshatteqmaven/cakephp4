@@ -6,7 +6,6 @@
  */
 ?>
 <div class="users index content">
-    <!-- <?= $this->Html->link(__('New User'), ['action' => 'add'], ['class' => 'button float-right']) ?> -->
     <h3><?= __('Users') ?></h3>
     <div class="table-responsive">
         <table>
@@ -16,7 +15,6 @@
                     <th><?= $this->Paginator->sort('name') ?></th>
                     <th><?= $this->Paginator->sort('phone') ?></th>
                     <th><?= $this->Paginator->sort('email') ?></th>
-                    <!-- <th><?= $this->Paginator->sort('password') ?></th> -->
                     <th><?= $this->Paginator->sort('gender') ?></th>
                     <th><?= $this->Paginator->sort('Image') ?></th>
                     <th class="actions"><?= __('Actions') ?></th>
@@ -29,7 +27,6 @@
                         <td><?= h($user->name) ?></td>
                         <td><?= h($user->phone) ?></td>
                         <td><?= h($user->email) ?></td>
-                        <!-- <td><?= h($user->password) ?></td> -->
                         <td><?= h($user->gender) ?></td>
                         <td><?= $this->Html->image(h($user->file), (array('width' => '50px'))) ?></td>
                         <td class="actions">

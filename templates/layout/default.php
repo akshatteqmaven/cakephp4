@@ -42,20 +42,19 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <?= $this->Html->link('Register', ['controller' => 'users', 'action' => 'register']); ?>
-                    <?= $this->Html->link('login', ['controller' => 'users', 'action' => 'login']); ?>
+                    <?= $this->Html->link('Login', ['controller' => 'users', 'action' => 'login']); ?>
                 </li>
             </ul>
-            <ul>
+            <ul class="navbar-nav">
                 <li class="nav-item">
-
-                    <?= $this->Html->link('logout', ['controller' => 'users', 'action' => 'logout']); ?>
-
+                    <?= $this->Html->link('Logout', ['controller' => 'users', 'action' => 'logout']); ?>
                 </li>
             </ul>
         </div>
@@ -68,6 +67,5 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         </div>
     </main>
 </body>
-
 
 </html>

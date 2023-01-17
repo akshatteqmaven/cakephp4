@@ -19,6 +19,8 @@
                 echo $this->Form->control('name');
                 echo $this->Form->control('phone');
                 echo $this->Form->control('email');
+                echo $this->Form->control('Posts.title');
+                echo $this->Form->control('Posts.body');
                 echo $this->Form->control('gender', array('type' => 'radio'));
                 echo $this->Form->radio('gender', ['Male' => 'Male', 'Female' => 'Female'], ['required' => false]);
                 ?>
