@@ -165,7 +165,6 @@ class UsersController extends AppController
         $this->Auth->allow(['forgot']);
         $this->Auth->allow(['reset']);
         $this->Auth->allow(['getotp']);
-        $this->Auth->allow(['logout']);
     }
     public function forgot()
     {
@@ -245,6 +244,6 @@ class UsersController extends AppController
     }
 
     public $paginate = [
-        'limit' => 6
+        'limit' => 4
     ];
 }

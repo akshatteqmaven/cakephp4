@@ -118,7 +118,9 @@ class UsersTable extends Table
                     'rule'    => ['custom', '/^(?=.*?[A-Z])(?=.*?[\W]).{8,}$/i'],
                     'allowEmpty' => false,
                     'last' => true,
-                    'message' => 'Please Enter alphanumaric and one special value.'
+                    'message' => 'Please Enter a 8 character alphanumaric password.
+                    Having atleast one upper and one lower case character and one special character.,
+                    For example: Test@123',
                 ],
             ]);
 
@@ -128,8 +130,18 @@ class UsersTable extends Table
             ->requirePresence('gender', 'create')
             ->notEmptyString('gender', 'Please select your Gender');
 
+        // $validator
+        //     ->notEmptyString('file', 'Please select a file');
         $validator
-            ->notEmptyString('file', 'Please select a file');
+            ->scalar('file')
+            ->requirePresence('file', 'create')
+            ->notEmptyString('file', 'Please select a  file')
+            ->add('file', [
+                'validExtension' => [
+                    'rule' => ['extension', ['gif', 'jpeg', 'png', 'jpg']], // default  ['gif', 'jpeg', 'png', 'jpg']
+                    'message' => 'Please select:png, jpg, gif, jpeg files'
+                ],
+            ]);
 
 
 
