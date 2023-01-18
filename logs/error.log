@@ -38188,3 +38188,9 @@ Client IP: 127.0.0.1
 2023-01-17 12:56:16 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
 2023-01-17 12:56:17 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
 2023-01-17 12:56:17 warning: The datasource configuration "debug_kit" was not found.
+2023-01-18 04:15:51 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-18 04:15:51 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-18 04:15:51 warning: The datasource configuration "debug_kit" was not found.
+2023-01-18 04:16:02 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-18 04:16:02 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-18 04:16:02 warning: The datasource configuration "debug_kit" was not found.
