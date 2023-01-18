@@ -76,7 +76,7 @@ input {
 }
 
 a {
-    color: white;
+    color: black;
     margin: 5px;
     font-size: 21px;
     font-weight: bold;
@@ -84,7 +84,7 @@ a {
 
 li a:hover {
     text-decoration: none;
-    color: black;
+    color: unset;
     font-size: 26px;
     font-weight: bold;
 }

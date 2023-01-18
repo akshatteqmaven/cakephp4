@@ -21,9 +21,12 @@
                 </tr>
             </thead>
             <tbody>
-                <?php foreach ($users as $user) : ?>
+                <?php
+                $sno = 1;
+                foreach ($users as $user) : ?>
                     <tr>
-                        <td><?= $this->Number->format($user->id) ?></td>
+                        <td><?= $sno++ ?></td>
+                        <!-- <td><?= $this->Number->format($user->id) ?></td> -->
                         <td><?= h($user->name) ?></td>
                         <td><?= h($user->phone) ?></td>
                         <td><?= h($user->email) ?></td>
