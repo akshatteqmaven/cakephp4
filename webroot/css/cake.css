@@ -1,8 +1,8 @@
 /* Miligram overrides */
-body {
+/* body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
-}
+} */
 
 .top-nav-links,
 .side-nav,
@@ -62,9 +62,9 @@ th a,
 }
 
 /* Main */
-body {
+/* body {
     background: #f5f7fa;
-}
+} */
 
 .content {
     padding: 2rem;
@@ -255,122 +255,4 @@ th {
     .desc:after {
         content: " \2190";
     }
-}
-
-a {
-    color: white;
-    margin: 5px;
-    font-size: 21px;
-    font-weight: bold;
-}
-
-li a:hover {
-    text-decoration: none;
-    color: black;
-    font-size: 26px;
-    font-weight: bold;
-}
-
-/* .navbar {
-    background: linear-gradient(to right, #B5AC49, #3CA55C);
-} */
-
-.error-message {
-    font-size: 19px;
-    color: #cc1f1a;
-    background-color: #fcebea;
-    width: 500px;
-}
-
-.button {
-    float: right;
-    font-weight: bold;
-    border: none;
-    border-radius: 22px;
-    margin-top: -37px;
-}
-
-.button:hover {
-    background-color: green;
-    box-shadow: 10px 15px 20px rgba(62, 243, 11, 0.4);
-    color: #fff;
-    transform: translateY(-7px);
-    text-decoration: none;
-}
-
-/* navbar css color changing  */
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
-
-.navbar {
-
-    background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
-    background-size: 400% 400%;
-    position: relative;
-    animation: animate 6s ease-in-out infinite;
-    display: flex;
-
-}
-
-@keyframes animate {
-    0% {
-        background-position: 0 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0 50%;
-    }
-}
-
-/* navar css ends */
-
-/* new css  */
-.text-center {
-    color: #3079ed;
-    font-weight: bold;
-    font-size: 6em;
-
-    animation-name: text-shadow-multicolor;
-    animation-duration: 2s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-fill-mode: none;
-
-    /* shorthand
-		animation: text-shadow-multicolor 2s ease 0s infinite normal none;*/
-}
-
-@keyframes text-shadow-multicolor {
-
-    0% {
-        text-shadow: 0 0px 15px #f0f;
-    }
-
-    33% {
-        text-shadow: 0 0px 15px #0ff;
-    }
-
-    66% {
-        text-shadow: 0 0px 10px #0f0;
-    }
-
-    100% {
-        text-shadow: 0 0px 10px #ff0;
-    }
-}
-
-button {
-    border-radius: 24px;
-    font-size: large;
-}
-
-button:hover {
-    font-weight: bolder;
-    background-color: #f18271;
-    color: black;
 }
