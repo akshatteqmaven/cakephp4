@@ -25066,3 +25066,47 @@ Cake\Http\Runner::run() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/R
 Cake\Http\Server::run() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php, line 90
 [main] /var/www/html/cakephp4/webroot/index.php, line 40
 
+2023-01-18 10:38:10 notice: Adding validation rules without a name key is deprecated. Update rules array to have string keys.
+/var/www/html/cakephp4/src/Model/Table/UsersTable.php, line: 104
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `src/Model/Table/UsersTable.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /register
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+Trace:
+deprecationWarning /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Validation\Validator::add() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Validation/Validator.php, line 539
+App\Model\Table\UsersTable::validationDefault() /var/www/html/cakephp4/src/Model/Table/UsersTable.php, line 104
+Cake\ORM\Table::createValidator() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Validation/ValidatorAwareTrait.php, line 121
+Cake\ORM\Table::getValidator() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Validation/ValidatorAwareTrait.php, line 95
+Cake\View\Form\EntityContext::_getValidator() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/View/Form/EntityContext.php, line 624
+Cake\View\Form\EntityContext::getRequiredMessage() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/View/Form/EntityContext.php, line 528
+Cake\View\Helper\FormHelper::setRequiredAndCustomValidity() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php, line 1373
+Cake\View\Helper\FormHelper::_magicOptions() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php, line 1340
+Cake\View\Helper\FormHelper::_parseOptions() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php, line 1235
+Cake\View\Helper\FormHelper::control() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php, line 1045
+include /var/www/html/cakephp4/templates/Users/register.php, line 6
+Cake\View\View::_evaluate() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::render() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/View/View.php, line 808
+Cake\Controller\Controller::render() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp4/webroot/index.php, line 40
+
