@@ -64,17 +64,6 @@ body {
     animation-timing-function: linear;
 }
 
-label {
-    color: white;
-    font-size: x-large;
-    font-weight: bold;
-}
-
-input {
-    color: white;
-    font-weight: bold;
-}
-
 a {
     color: black;
     margin: 5px;
@@ -190,5 +179,21 @@ button {
 button:hover {
     font-weight: bolder;
     background-color: #f18271;
+    color: black;
+}
+
+.fa-solid.fa-eye:hover {
+    color: rgb(14, 228, 14);
+}
+
+.fa-solid.fa-pen-to-square:hover {
+    color: #ff6f61;
+}
+
+.fa-solid.fa-trash:hover {
+    color: rgb(229, 26, 11);
+}
+
+td:hover {
     color: black;
 }

@@ -17,10 +17,10 @@
                     <th><?= __('Id') ?></th>
                     <td><?= $this->Number->format($user->id) ?></td>
                 </tr>
-                <tr>
+                <!-- <tr>
                     <th><?= __('Name') ?></th>
                     <td><?= h($user->name) ?></td>
-                </tr>
+                </tr> -->
                 <tr>
                     <th><?= __('Phone') ?></th>
                     <td><?= h($user->phone) ?></td>
@@ -36,6 +36,10 @@
                 <tr>
                     <th><?= __('Gender') ?></th>
                     <td><?= h($user->gender) ?></td>
+                </tr>
+                <tr>
+                    <th><?= __('File') ?></th>
+                    <td><?= $this->Html->image(h($user->file), array('width' => '200px', 'class' => "image")) ?></td>
                 </tr>
                 <?= $this->Html->link(__('Go Back'), ['action' => 'index'], ['class' => 'button']) ?>
 
