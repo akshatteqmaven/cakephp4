@@ -86,7 +86,7 @@ class UsersController extends AppController
             $data["file"] = $fileName;
             $user = $this->Users->patchEntity($user, $data);
             if ($this->Users->save($user)) {
-                $this->Flash->success(__('The user has been saved.'));
+                $this->Flash->success(__('Your data is updated.'));
 
                 return $this->redirect(['action' => 'index']);
             }
@@ -131,7 +131,7 @@ class UsersController extends AppController
     //logout function
     public function logout()
     {
-        $this->Flash->success('You are Loged out');
+        $this->Flash->success('You are Loged out now ');
         return $this->redirect($this->Auth->logout());
     }
 
