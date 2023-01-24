@@ -39696,3 +39696,174 @@ Client IP: 127.0.0.1
 2023-01-20 12:40:20 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
 2023-01-20 12:40:20 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
 2023-01-20 12:40:20 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:49:06 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:49:06 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:49:06 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:49:06 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:49:06 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:49:06 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:49:10 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:49:10 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:49:10 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:49:13 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:49:15 error: [Cake\Network\Exception\SocketException] SMTP Error: 530 5.7.0  https://support.google.com/mail/?p=WantAuthError jj5-20020a170903048500b00189f2fdbdd0sm818987plb.234 - gsmtp in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Mailer/Transport/SmtpTransport.php on line 585
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Mailer/Transport/SmtpTransport.php:481
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Mailer/Transport/SmtpTransport.php:196
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Mailer/Transport/DebugKitTransport.php:78
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Mailer/Mailer.php:406
+- /var/www/html/cakephp4/src/Controller/UsersController.php:185
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /users/forgot
+Referer URL: http://localhost:8765/users/forgot
+Client IP: 127.0.0.1
+2023-01-24 06:49:16 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:49:16 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:54:57 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:54:57 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:54:57 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:54:59 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:55:01 error: [Cake\Network\Exception\SocketException] SMTP Error: 530 5.7.0  https://support.google.com/mail/?p=WantAuthError g2-20020aa79f02000000b0058bbe1240easm724609pfr.190 - gsmtp in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Mailer/Transport/SmtpTransport.php on line 585
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Mailer/Transport/SmtpTransport.php:481
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Mailer/Transport/SmtpTransport.php:196
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Mailer/Transport/DebugKitTransport.php:78
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Mailer/Mailer.php:406
+- /var/www/html/cakephp4/src/Controller/UsersController.php:185
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /users/forgot
+Referer URL: http://localhost:8765/users/forgot
+Client IP: 127.0.0.1
+2023-01-24 06:55:01 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:55:01 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:55:03 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:55:03 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:55:03 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:55:07 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:55:09 error: [Cake\Network\Exception\SocketException] SMTP Error: 530 5.7.0  https://support.google.com/mail/?p=WantAuthError t17-20020a170902b21100b00186f0f59c85sm827712plr.235 - gsmtp in /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Mailer/Transport/SmtpTransport.php on line 585
+Stack Trace:
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Mailer/Transport/SmtpTransport.php:481
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Mailer/Transport/SmtpTransport.php:196
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Mailer/Transport/DebugKitTransport.php:78
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Mailer/Mailer.php:406
+- /var/www/html/cakephp4/src/Controller/UsersController.php:185
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/html/cakephp4/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/cakephp4/webroot/index.php:40
+
+Request URL: /users/forgot
+Referer URL: http://localhost:8765/users/forgot
+Client IP: 127.0.0.1
+2023-01-24 06:55:09 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:55:09 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:56:44 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:56:47 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:56:47 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:56:47 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:56:47 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:56:47 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:56:48 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:56:48 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:56:48 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:57:16 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:57:16 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:57:16 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:57:16 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:57:16 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:57:16 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:57:28 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:57:28 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:57:28 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:57:28 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:57:28 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:57:28 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:57:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:57:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:57:36 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:57:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:57:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:57:36 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:57:43 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:57:43 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:57:43 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:57:46 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:57:46 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:57:46 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:57:47 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:57:47 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:57:47 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:57:50 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:57:50 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:57:50 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:57:50 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:57:50 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:57:50 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:58:01 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:58:01 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:58:01 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:58:03 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:58:03 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:58:03 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:58:15 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:58:18 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:58:18 warning: The datasource configuration "debug_kit" was not found.
+2023-01-24 06:58:18 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-01-24 06:58:18 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-01-24 06:58:18 warning: The datasource configuration "debug_kit" was not found.
